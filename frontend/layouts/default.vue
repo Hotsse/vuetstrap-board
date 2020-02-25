@@ -1,8 +1,40 @@
 <template>
   <div>
+    <div class="jumbotron text-center" style="margin-bottom:0">
+      <h1>My First Bootstrap 4 Page</h1>
+      <p>Resize this responsive page to see the effect!</p>
+    </div>
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <nuxt-link to="/" class="navbar-brand">Home</nuxt-link>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon" />
+      </button>
+      <div id="collapsibleNavbar" class="collapse navbar-collapse">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <nuxt-link to="/about" class="nav-link">About</nuxt-link>
+          </li>
+          <li class="nav-item">
+            <nuxt-link to="/board/list" class="nav-link">Board</nuxt-link>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
     <nuxt />
+
+    <div class="jumbotron text-center" style="margin-bottom:0">
+      <p>Footer</p>
+    </div>
   </div>
 </template>
+
+<script>
+export default {
+  scrollToTop: false
+}
+</script>
 
 <style>
 html {

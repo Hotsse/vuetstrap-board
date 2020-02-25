@@ -6,7 +6,7 @@
         frontend
       </h1>
       <h2 class="subtitle">
-        Home
+        About
       </h2>
     </div>
   </div>
