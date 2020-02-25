@@ -30,7 +30,7 @@
     <div>
       {{ count }}
       <button @click="++count">up</button>
-      <button @click="--count">down</button>
+      <button @click="--count">downf</button>
     </div>
   </div>
 </template>
