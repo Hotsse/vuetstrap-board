@@ -27,6 +27,7 @@
         </tr>
       </tbody>
     </table>
+    
     <div>
       {{ count }}
       <button @click="++count">up</button>
